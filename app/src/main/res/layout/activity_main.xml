@@ -44,8 +44,9 @@
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/emailSubject"
-        app:layout_constraintTop_toBottomOf="@+id/emailFormTitle" />
+        app:layout_constraintStart_toStartOf="@+id/eSubject"
+        app:layout_constraintTop_toBottomOf="@+id/emailFormTitle"
+        tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
 
     <!-- Campo para "Subject" -->
     <TextView
@@ -55,28 +56,30 @@
         android:layout_marginStart="8dp"
         android:text="@string/subject_label"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/emailSubject"
+        app:layout_constraintBottom_toBottomOf="@+id/eSubject"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/emailSubject" />
+        app:layout_constraintTop_toTopOf="@+id/eSubject" />
 
     <!-- Campo para el mensaje -->
     <EditText
-        android:id="@+id/emailSubject"
+        android:id="@+id/eSubject"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:hint="@string/subject_hint"
+        android:importantForAutofill="no"
         android:inputType="textCapWords"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/subjectLabel"
-        app:layout_constraintTop_toBottomOf="@+id/emailTo" />
+        app:layout_constraintTop_toBottomOf="@+id/emailTo"
+        tools:ignore="VisualLintTextFieldSize,TextContrastCheck,TextContrastCheck" />
 
     <!-- Botón de enviar -->
     <EditText
-        android:id="@+id/emailMessage"
+        android:id="@+id/eMessage"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -85,11 +88,13 @@
         android:layout_marginBottom="8dp"
         android:gravity="top"
         android:hint="@string/message_hint"
+        android:importantForAutofill="no"
         android:inputType="textMultiLine"
         app:layout_constraintBottom_toTopOf="@+id/sendButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailSubject" />
+        app:layout_constraintTop_toBottomOf="@+id/eSubject"
+        tools:ignore="VisualLintTextFieldSize,TextContrastCheck" />
 
     <Button
         android:id="@+id/sendButton"

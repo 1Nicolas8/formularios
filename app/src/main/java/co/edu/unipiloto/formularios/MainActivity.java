@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         emailTo = findViewById(R.id.emailTo);
-        emailSubject = findViewById(R.id.emailSubject);
-        emailMessage = findViewById(R.id.emailMessage);
+        emailSubject = findViewById(R.id.eSubject);
+        emailMessage = findViewById(R.id.eMessage);
         sendButton = findViewById(R.id.sendButton);
 
         sendButton.setOnClickListener(new View.OnClickListener() {
