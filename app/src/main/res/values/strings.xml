@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">formularios</string>
+    <string name="app_name">Formularios</string>
+    <string name="to_label">Para</string>
+    <string name="email_hint">Ingresar Email</string>
+    <string name="subject_label">Asunto</string>
+    <string name="subject_hint">Ingresar Asunto</string>
+    <string name="message_hint">Ingresar Mensaje</string>
+    <string name="send_button">Enviar</string>
+    <string name="email_form_title">Formulario de Correo</string>
 </resources>
