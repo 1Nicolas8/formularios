@@ -5,6 +5,19 @@
     <string name="subject_label">Asunto</string>
     <string name="subject_hint">Ingresar Asunto</string>
     <string name="message_hint">Ingresar Mensaje</string>
-    <string name="send_button">Enviar</string>
+    <string name="send_button">Enviar este Formulario</string>
     <string name="email_form_title">Formulario de Correo</string>
+    <string name="change_activity">Entrar al otro Ejercicio</string>
+    <string name="form_project">Formulario de Publicación de Proyecto</string>
+    <string name="project_name_label">Nombre del Proyecto</string>
+    <string name="project_name_hint">Ingrese el nombre del proyecto</string>
+    <string name="project_message_label">Descripción del Proyecto</string>
+    <string name="project_message_hint">Ingrese una descripción del proyecto</string>
+    <string name="project_place_label">Localidad</string>
+    <string name="project_place_hint">Ingrese la localidad</string>
+    <string name="project_budget_label">Presupuesto</string>
+    <string name="project_budget_hint">Ingrese el presupuesto</string>
+    <string name="project_population_label">Número de Habitantes</string>
+    <string name="project_population_hint">Ingrese el número de habitantes</string>
+    <string name="project_button">Publicar Proyecto</string>
 </resources>
