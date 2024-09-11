@@ -45,7 +45,7 @@ public class FormProject extends AppCompatActivity {
                 Toast.makeText(FormProject.this, "Porfavor llenar todos los campos", Toast.LENGTH_SHORT).show();
             } else {
                 // Simulación de envío de correo
-                Toast.makeText(FormProject.this, "Correo enviado correctamente (simulado)", Toast.LENGTH_LONG).show();
+                Toast.makeText(FormProject.this, "Proyecto enviado correctamente (simulado)", Toast.LENGTH_LONG).show();
                 // Limpiar los campos de texto
                 projectName.setText("");
                 projectDescription.setText("");
